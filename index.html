@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- tudo o que eu quero é um emprego na area, prometo dar o meu melhor :) -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <div class="form-div">
+        <h1>Formulário de Contato</h1>
+        <form action="https://formsubmit.co/7cf9a43f924a4f7937b49a3d75558909" method="POST">
+            <div>
+                <label for="name">Nome:</label> <br>
+                <input type="text" id="name" name="name" placeholder="Luiz Franzon" required> <br>
+            </div>
+            <div>
+                <label for="email">E-mail:</label> <br>
+                <input type="text" name="email" id="email" placeholder="email@dominio.com.br">
+            </div>
+            <div>
+                <label for="message">Mensagem:</label> <br>
+                <textarea type="text" rows="7" cols="65" id="message" name="message" placeholder="Sua mensagem :)" required></textarea>
+            </div>
+            <button type="submit" id="button">Enviar</button>
+            <input type="hidden" name="_next" value="./thankYou.html">
+        </form>
+    </div>
+</body>
+</html>
